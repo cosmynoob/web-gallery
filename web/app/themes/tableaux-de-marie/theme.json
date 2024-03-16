@@ -1249,6 +1249,41 @@
           "color": "#4c0519",
           "name": "Rose 950",
           "slug": "rose-950"
+        },
+        {
+          "color": "#0a939e",
+          "name": "Art Light",
+          "slug": "art-light"
+        },
+        {
+          "color": "#195d6e",
+          "name": "Art Medium",
+          "slug": "art-medium"
+        },
+        {
+          "color": "#1e3441",
+          "name": "Art Dark",
+          "slug": "art-dark"
+        },
+        {
+          "color": "#172c3c",
+          "name": "Art Darker",
+          "slug": "art-darker"
+        },
+        {
+          "color": "#00000029",
+          "name": "Grey Light",
+          "slug": "grey-light"
+        },
+        {
+          "color": "#d4d4d4",
+          "name": "Grey Medium",
+          "slug": "grey-medium"
+        },
+        {
+          "color": "#0000007d",
+          "name": "Grey Dark",
+          "slug": "grey-dark"
         }
       ]
     },

@@ -33,9 +33,14 @@ export default async (app) => {
    * @see {@link https://bud.js.org/reference/bud.watch}
    */
   app
-    .setUrl('http://192.168.16.1:3000')
+    .setPublicUrl('http://192.168.0.23:3005')
     .setProxyUrl('http://les-tableaux-de-marie.test')
-    .watch(['resources/views', 'app']);
+    .watch(
+      [
+      'resources/**/*',
+      'app/**/*'
+    ]);
+
 
   /**
    * Generate WordPress `theme.json`

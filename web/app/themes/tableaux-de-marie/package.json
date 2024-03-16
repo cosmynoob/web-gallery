@@ -23,5 +23,8 @@
     "@roots/bud-tailwindcss": "6.20.0",
     "@roots/sage": "6.20.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lineicons": "^1.0.3",
+    "swiper": "^11.0.7"
+  }
 }

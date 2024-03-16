@@ -55,11 +55,54 @@ if (! function_exists('\Roots\bootloader')) {
 */
 
 collect(['setup', 'filters'])
-    ->each(function ($file) {
-        if (! locate_template($file = "app/{$file}.php", true, true)) {
-            wp_die(
-                /* translators: %s is replaced with the relative file path */
-                sprintf(__('Error locating <code>%s</code> for inclusion.', 'sage'), $file)
-            );
-        }
-    });
+->each(function ($file) {
+    if (! locate_template($file = "app/{$file}.php", true, true)) {
+        wp_die(
+            /* translators: %s is replaced with the relative file path */
+            sprintf(__('Error locating <code>%s</code> for inclusion.', 'sage'), $file)
+        );
+    }
+});
+
+/*
+|--------------------------------------------------------------------------
+| Add custom post type Créations
+|--------------------------------------------------------------------------|
+*/
+
+function wp_creations_post_type() {
+
+	$labels = array(
+		'name'                => _x( 'Créations', 'Post Type General Name'),
+		'singular_name'       => _x( 'Création', 'Post Type Singular Name'),
+		'menu_name'           => __( 'Créations'),
+		'all_items'           => __( 'Tous les créations'),
+		'view_item'           => __( 'Voir les créations'),
+		'add_new_item'        => __( 'Ajouter une nouvelle création'),
+		'add_new'             => __( 'Ajouter'),
+		'edit_item'           => __( 'Editer la création'),
+		'update_item'         => __( 'Modifier la création'),
+		'search_items'        => __( 'Rechercher une création'),
+		'not_found'           => __( 'Non trouvé'),
+		'not_found_in_trash'  => __( 'Non trouvé dans la corbeille'),
+	);
+	
+	$args = array(
+		'label'               => __( 'Créations'),
+		'description'         => __( 'Liste des créations'),
+		'labels'              => $labels,
+		'supports'            => array( 'title', 'editor', 'excerpt', 'thumbnail', 'custom-fields', ),
+		'show_in_rest' => true,
+		'hierarchical'        => false,
+		'public'              => true,
+		'has_archive'         => true,
+		'rewrite'			  => array( 'slug' => 'creations'),
+
+	);
+	
+	// On enregistre notre custom post type qu'on nomme ici "serietv" et ses arguments
+	register_post_type( 'creations', $args );
+
+}
+
+add_action( 'init', 'wp_creations_post_type', 0 );
