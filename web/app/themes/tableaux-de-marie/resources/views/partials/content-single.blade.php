@@ -1,13 +1,6 @@
 <article @php(post_class('h-entry'))>
-  <header>
-    <h1 class="p-name">
-      {!! $title !!}
-    </h1>
 
-    @include('partials.entry-meta')
-  </header>
-
-  <div class="e-content">
+  <div class="single-content e-content mx-auto max-w-screen-3xl text-pretty">
     @php(the_content())
   </div>
 
@@ -18,6 +11,4 @@
       </nav>
     </footer>
   @endif
-
-  @php(comments_template())
 </article>

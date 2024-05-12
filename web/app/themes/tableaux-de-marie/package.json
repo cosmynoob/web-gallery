@@ -24,6 +24,8 @@
     "@roots/sage": "6.20.0"
   },
   "dependencies": {
+    "@roots/bud-sass": "^6.20.0",
+    "jquery": "^3.7.1",
     "lineicons": "^1.0.3",
     "swiper": "^11.0.7"
   }

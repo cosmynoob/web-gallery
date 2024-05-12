@@ -15,7 +15,6 @@ export default async (app) => {
    */
   app
     .entry('app', ['@scripts/app', '@styles/app'])
-    .entry('editor', ['@scripts/editor', '@styles/editor'])
     .assets(['images']);
 
   /**
@@ -33,7 +32,8 @@ export default async (app) => {
    * @see {@link https://bud.js.org/reference/bud.watch}
    */
   app
-    .setPublicUrl('http://192.168.0.23:3005')
+    .serve('http://0.0.0.0:3008')
+    .setPublicUrl('http://192.168.0.23:3008')
     .setProxyUrl('http://les-tableaux-de-marie.test')
     .watch(
       [

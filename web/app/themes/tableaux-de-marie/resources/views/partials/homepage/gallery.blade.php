@@ -1,6 +1,6 @@
-<section id="gallery" class="w-full py-40 bg-grey-light">
+<section id="gallery" class="w-full py-32 overflow-hidden">
     <div class="w-full pb-16 flex items-center justify-center">
-        <p class="text-3xl">Galerie</p>
+        <p class="text-3xl font-title font-light text-art-dark">Galerie</p>
     </div>
     <div class="swiper gallery-swiper">
         <!-- Additional required wrapper -->

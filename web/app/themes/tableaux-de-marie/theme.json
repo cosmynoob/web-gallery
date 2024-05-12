@@ -1309,8 +1309,8 @@
       "customFontSize": false,
       "fontFamilies": [
         {
-          "fontFamily": "ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
-          "name": "Ui-sans-serif",
+          "fontFamily": "Monserrat,sans-serif",
+          "name": "Monserrat",
           "slug": "sans"
         },
         {
@@ -1322,47 +1322,52 @@
           "fontFamily": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
           "name": "Ui-monospace",
           "slug": "mono"
+        },
+        {
+          "fontFamily": "Playfair Display,serif",
+          "name": "Playfair Display",
+          "slug": "title"
         }
       ],
       "fontSizes": [
         {
           "name": "xs",
-          "size": "0.75rem",
+          "size": "18px",
           "slug": "xs"
         },
         {
           "name": "sm",
-          "size": "0.875rem",
+          "size": "21px",
           "slug": "sm"
         },
         {
           "name": "base",
-          "size": "1rem",
+          "size": "19px",
           "slug": "base"
         },
         {
           "name": "lg",
-          "size": "1.125rem",
+          "size": "28px",
           "slug": "lg"
         },
         {
           "name": "xl",
-          "size": "1.25rem",
+          "size": "36px",
           "slug": "xl"
         },
         {
           "name": "2xl",
-          "size": "1.5rem",
+          "size": "39px",
           "slug": "2xl"
         },
         {
           "name": "3xl",
-          "size": "1.875rem",
+          "size": "45px",
           "slug": "3xl"
         },
         {
           "name": "4xl",
-          "size": "2.25rem",
+          "size": "62px",
           "slug": "4xl"
         },
         {
@@ -1372,12 +1377,12 @@
         },
         {
           "name": "6xl",
-          "size": "3.75rem",
+          "size": "4rem",
           "slug": "6xl"
         },
         {
           "name": "7xl",
-          "size": "4.5rem",
+          "size": "5rem",
           "slug": "7xl"
         },
         {
@@ -1389,6 +1394,31 @@
           "name": "9xl",
           "size": "8rem",
           "slug": "9xl"
+        },
+        {
+          "name": "4xs",
+          "size": "12px",
+          "slug": "4xs"
+        },
+        {
+          "name": "3xs",
+          "size": "14px",
+          "slug": "3xs"
+        },
+        {
+          "name": "2xs",
+          "size": "16px",
+          "slug": "2xs"
+        },
+        {
+          "name": "md",
+          "size": "26px",
+          "slug": "md"
+        },
+        {
+          "name": "tiny",
+          "size": ".875rem",
+          "slug": "tiny"
         }
       ]
     }
