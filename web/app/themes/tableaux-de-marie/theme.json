@@ -1419,6 +1419,11 @@
           "name": "tiny",
           "size": ".875rem",
           "slug": "tiny"
+        },
+        {
+          "name": "homepage",
+          "size": "16rem",
+          "slug": "homepage"
         }
       ]
     }

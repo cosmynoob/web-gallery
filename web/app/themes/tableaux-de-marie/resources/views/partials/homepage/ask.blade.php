@@ -1,6 +1,6 @@
-<section id="ask" class="w-full pt-12 pb-24 md:pt-32 md:pb-32 lg:pb-56 relative overflow-hidden">
+<section id="ask" class="w-full pt-12 pb-24 md:pt-32 md:pb-32 lg:pb-64 relative overflow-hidden">
     
-    <div class="max-w-screen-3xl px-8 md:px-0 mx-auto flex flex-col lg:flex-row">
+    <div class="max-w-screen-3xl px-8 md:px-0 mx-auto flex flex-col lg:flex-row gap-4 md:gap-24">
         <div class="lg:order-first order-last w-full lg:w-1/2 flex flex-col sm:flex-row items-center gap-4 md:gap-10 ">
             <div class="md:mt-20 w-full">
                 <img src="@asset('images/about.png')" class="aspect-square w-full"/>

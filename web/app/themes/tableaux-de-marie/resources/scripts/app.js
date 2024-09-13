@@ -16,7 +16,7 @@ domReady(async () => {
     slidesPerView: 1.5,
     centeredSlides: true,
     centeredSlidesBounds: true,
-    spaceBetween: 30,
+    spaceBetween: 0,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

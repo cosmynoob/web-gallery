@@ -53,10 +53,10 @@
               <a class="navbar-items block p-4 text-sm font-normal uppercase text-gray-400 hover:text-art-medium js-scrollTo" href="#about">A propos</a>
             </li>
             <li class="mb-1">
-              <a class="navbar-items block p-4 text-sm font-normal uppercase text-gray-400 hover:text-art-medium js-scrollTo" href="#expo">Expositions</a>
+              <a class="navbar-items block p-4 text-sm font-normal uppercase text-gray-400 hover:text-art-medium js-scrollTo" href="/expositions/">Expositions</a>
             </li>
             <li class="mb-1">
-              <a class="navbar-items block p-4 text-sm font-normal uppercase text-gray-400 hover:text-art-medium js-scrollTo" href="#press">Presse</a>
+              <a class="navbar-items block p-4 text-sm font-normal uppercase text-gray-400 hover:text-art-medium js-scrollTo" href="/articles-de-presse/s">Presse</a>
             </li>
             <li class="mb-1">
               <a class="navbar-items block p-4 text-sm font-normal uppercase text-gray-400 hover:text-art-medium js-scrollTo" href="#contact">Contact</a>
