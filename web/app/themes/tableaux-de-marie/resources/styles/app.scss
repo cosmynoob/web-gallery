@@ -21,7 +21,7 @@
         animation: slideDown 0.35s ease-out;
         background: rgba(0,0,0,.2);
         .logo svg {
-            @apply w-14 h-14;
+            @apply w-14 h-14 text-white;
         }
 
         @keyframes slideDown {

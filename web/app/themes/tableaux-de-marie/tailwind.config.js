@@ -37,6 +37,7 @@ const config = {
         '5xl': '3rem',
         '6xl': '4rem',
         '7xl': '5rem',
+        'homemobile': '6rem',
         'homepage': '16rem',
     },
     fontWeight: {

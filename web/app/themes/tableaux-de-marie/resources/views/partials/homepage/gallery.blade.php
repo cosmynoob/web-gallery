@@ -1,15 +1,15 @@
 <section id="gallery" class="w-full overflow-hidden relative">
     <div class="max-w-screen-3xl w-full">
-        <div class="w-full flex items-center justify-center top-0 absolute ">
-            <p class=" text-homepage  text-art-medium opacity-30 font-title">Gallerie</p>
+        <div class="w-full flex items-center justify-center top-8 absolute ">
+            <p class="text-7xl md:text-homepage  text-art-medium opacity-30 font-title">Gallerie</p>
         </div>
     </div>
-    <div class="">
-        <div class="max-w-screen-3xl navigation flex items-center justify-end py-24 px-8 mx-auto">
+    <div class="pt-44">
+        <div class="hidden md:flex max-w-screen-3xl navigation items-center justify-end py-24 px-8 mx-auto">
             <a href="/gallerie/"
             class="border border-art-medium border-1 z-20 flex uppercase px-10 py-4 hover:shadow-2xl items-center justify-center bg-white overflow-hidden text-art-medium transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-art-medium before:duration-200 relative  before:z-10 before:ease-out hover:bg-art-medium hover:shadow-art-medium hover:text-white hover:before:h-96 hover:before:w-96">{{ _e('Voir tous mes tableaux', 'tableaux-de-marie') }}</a>
         </div>
-        <div class="max-w-screen-3xl pb-24 px-8 mx-auto swiper gallery-swiper">
+        <div class="pb-10 md:pb-0 px-8 mx-auto swiper gallery-swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 @php
@@ -48,6 +48,10 @@
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
+        </div>
+        <div class="flex md:hidden max-w-screen-3xl navigation items-center justify-center px-8 mx-auto pb-10">
+            <a href="/gallerie/"
+            class="border border-art-medium border-1 z-20 flex uppercase px-10 py-4 hover:shadow-2xl items-center justify-center bg-white overflow-hidden text-art-medium transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-art-medium before:duration-200 relative  before:z-10 before:ease-out hover:bg-art-medium hover:shadow-art-medium hover:text-white hover:before:h-96 hover:before:w-96">{{ _e('Voir tous mes tableaux', 'tableaux-de-marie') }}</a>
         </div>
     </div>
 

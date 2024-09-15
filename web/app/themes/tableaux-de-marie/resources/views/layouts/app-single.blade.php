@@ -1,10 +1,13 @@
 <div class="max-w-full mx-auto">
-    @include('sections.header')
+    
+    @if (is_front_page())
+        @include('sections.header')
+    @else
+        @include('sections.header_color')
+    @endif
 
     <div class="max-w-full mx-auto">
-        @include('partials.page-header')
-
-        <main id="main" class="main w-full bg-art-dark">
+        <main id="main" class="main w-full pt-48 pb-32">
             @yield('content')
         </main>
     </div>

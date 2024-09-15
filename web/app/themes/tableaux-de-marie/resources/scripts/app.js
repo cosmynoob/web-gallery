@@ -23,15 +23,18 @@ domReady(async () => {
     },
     breakpoints: {
       200: {
-        slidesPerView: 2,
-      },
-      576: {
         slidesPerView: 1.5,
       },
-      768: {
+      576: {
         slidesPerView: 2.5,
       },
+      768: {
+        slidesPerView: 3.5,
+      },
       1024: {
+        slidesPerView: 4,
+      },
+      1280: {
         slidesPerView: 4,
       },
     },
@@ -46,25 +49,28 @@ domReady(async () => {
   /*------------------------------------------------------------------------*/
   var expo = new Swiper(".expo-swiper", {
     slidesPerView: 3,
-    centeredSlides: true,
+    centeredSlides: false,
     centeredSlidesBounds: true,
-    spaceBetween: 100,
+    spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
     breakpoints: {
       200: {
-        slidesPerView: 1,
+        slidesPerView: 1.5,
       },
       576: {
-        slidesPerView: 1,
+        slidesPerView: 2.5,
       },
       768: {
-        slidesPerView: 2,
+        slidesPerView: 2.5,
       },
       1024: {
-        slidesPerView: 3,
+        slidesPerView: 2.5,
+      },
+      1280: {
+        slidesPerView: 2.5,
       },
     },
   });
