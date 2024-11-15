@@ -1,7 +1,7 @@
 <section id="gallery" class="w-full overflow-hidden relative">
     <div class="max-w-screen-3xl w-full">
         <div class="w-full flex items-center justify-center top-8 absolute ">
-            <p class="text-7xl md:text-homepage  text-art-medium opacity-30 font-title">Gallerie</p>
+            <p class="text-7xl md:text-homepage  text-art-medium opacity-30 font-title">Galerie</p>
         </div>
     </div>
     <div class="pt-44">

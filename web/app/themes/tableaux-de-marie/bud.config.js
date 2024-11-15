@@ -33,8 +33,8 @@ export default async (app) => {
    */
   app
     .serve('http://0.0.0.0:3008')
-    .setPublicUrl('http://192.168.0.23:3008')
-    .setProxyUrl('http://les-tableaux-de-marie.test')
+    .setPublicUrl('http://192.168.1.18:3008')
+    .setProxyUrl('http://marie-fuchs.test')
     .watch(
       [
       'resources/**/*',
