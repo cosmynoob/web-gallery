@@ -4,7 +4,7 @@
             <p class=" text-7xl md:text-homepage  text-art-medium font-black opacity-80 font-title">Expositions</p>
         </div>
     </div>
-    <div class="max-w-screen-3xl py-24 px-8 md: px-24 mx-auto">
+    <div class="max-w-screen-3xl py-24 px-8 md:px-24 mx-auto">
         <div class="swiper expo-swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
