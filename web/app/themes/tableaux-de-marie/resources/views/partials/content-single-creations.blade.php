@@ -7,7 +7,9 @@
             </div>
             <div class="w-1/2 p-12">
                 <h2 class="text-4xl  font-title leading-tight">{{ get_the_title() }}</h2>
+                @if(get_field('creation_price'))
                 <p class="text-3xl text-art-medium font-title ">{{get_field('creation_price')}} €</p>
+                @endif
                 @if(get_field('creation_sold'))<p>VENDU</p> @endif
                 <div class="entry-content mt-12">
                     @php(the_content())
