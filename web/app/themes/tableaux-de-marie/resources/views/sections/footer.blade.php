@@ -4,8 +4,7 @@
     @if (!is_front_page())
         <div class="w-full bg-white py-24 relative overflow-hidden">
             <div class="absolute bottom-0 left-0 w-full object-cover ">
-                <img src="http://les-tableaux-de-marie.test/app/themes/tableaux-de-marie/public/images/separator_bottom.svg"
-                    class="w-full no-repeat">
+                <img src="@asset('images/separator_bottom.svg')" />
             </div>
         </div>
     @endif
