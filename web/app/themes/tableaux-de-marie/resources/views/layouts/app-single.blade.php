@@ -7,7 +7,7 @@
     @endif
 
     <div class="max-w-full mx-auto">
-        <main id="main" class="main w-full pt-48 pb-32">
+        <main id="main" class="main w-full py-32">
             @yield('content')
         </main>
     </div>
