@@ -18,8 +18,8 @@
                 {!!get_field("footer_info_contact_me", 2)!!}
             </div>
             <div class="contact-links mb-16">
-                <a href="tel:06000000" class="text-white text-2xl pb-6 block">{{get_field("footer_phone_number")}}</a>
-                <a href="mailTo:@get_field("footer_email")" class="text-white text-2xl pb-6 block">{{get_field("footer_email", 2)}}</a>
+                <a href="tel:{{get_field("footer_phone_number", 2)}}" class="text-white text-2xl pb-6 block">{{get_field("footer_phone_number", 2)}}</a>
+                <a href="mailTo:{{get_field("footer_email", 2)}}" class="text-white text-2xl pb-6 block">{{get_field("footer_email", 2)}}</a>
             </div>
             <div class="social-links flex gap-10">
                 @if (get_field("footer_facebook", 2))
