@@ -30,6 +30,13 @@
                                     class="stretched-link title text-lg xl:text-md font-title leading-normal pb-6">{{ the_title() }}    
                                 </span>
                                 @if(get_field('creation_sold'))<p class="text-gray-400 text-xs m-0">Plus disponible</p> @endif
+                                
+                                @if(get_field('creation_size') || get_field('creation_painting_type'))
+                                    <p class="text-xs m-0 flex gap-2">
+                                        @if(get_field('creation_size')) <span class="text-art-medium">{{ get_field('creation_size') }}</span> @endif
+                                        @if(get_field('creation_painting_type')) <span class="">{{get_field('creation_painting_type')}}</span> @endif
+                                    </p> 
+                                @endif
                                 <div class="content">
                                     <p>
                                         {{ the_excerpt() }}
